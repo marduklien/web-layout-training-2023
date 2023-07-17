@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+
+html,
+body {
+    color: #000;
+    font-family: 'Castoro', serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 128px;
+    line-height: 192px;
+    letter-spacing: 0.12em;
+}
+
+h2 {
+    font-size: 128px;
+    line-height: 192px;
+    letter-spacing: 0.12em;
+}
+
+
+h3 {
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
+
+.fs-1, .fs-2, .fs-3 {
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.fs-1 {
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.fs-2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.fs-3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bg-gray {
+    background: #EFEFEF;
+}
+
+.bg-black{
+    background: #000000;
+}
+
+.text-gray {
+    color: #949494;
+}
+
+.text-red {
+    color: #ae0000;
+}
+
+.text-year {
+    font-style: italic;
+}
+
+.border-bottom {
+    border-bottom: 3px solid #AE0000;
+}
+
+.d-block {
+display: block;
+}
+
+.d-inline-block{
+display: inline-block;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+.me-auto {
+    margin-left: auto;
+}
+.mt-8{
+    margin-top: 8px;
+}
+.mt-12{
+    margin-top: 12px;
+}
+.mt-16{
+    margin-top: 16px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mt-80{
+    margin-top: 80px;
+}
+.mt-160{
+    margin-top: 160px;
+}
+.me-14 {
+    margin-right: 14px;
+}
+.me-40{
+    margin-right: 40px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-160{
+    margin-bottom: 160px;
+}
+.pt-160 {
+    padding-top: 160px;
+}
+.py-48 {
+    padding: 48px 0px;
+}
+.py-64 {
+    padding: 64px 0px;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.w-50 {
+    max-width: 50%;
+  }
+
+.hero img {
+    width: 636px;
+}
+
+
+.resume p {
+    text-align: left;
+}
+
+.info_card li a {
+    color: #000000;
+}
+
+.info_card li a:hover {
+    color: #949494;
+ }
+ 
+.footer-content {
+    text-align: center;
+}
+
+.footer-content li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footer-content li:last-child {
+    margin-right: 0px;
+}
+
+.footer-content li:hover img {
+    transform: scale(1.25);
+
+}
+
+.footer-content li img {
+    width: 64px;
+    height: 64px;
+    transition: transform 0.25s;
+}

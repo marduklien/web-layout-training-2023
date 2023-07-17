@@ -1,0 +1,63 @@
+
+html,
+body {
+    color: #000;
+    line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  border: 0;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.ms-20 {
+    margin-left: 20px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.py-48 {
+    padding: 48px 0px;
+}
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.news {
+    align-items: flex-start; 
+}
+
+.text-center {
+    text-align: center;
+}
+
